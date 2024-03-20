@@ -1,9 +1,8 @@
-import React from "react";
+import React from 'react';
+import './App.css';
 
-import Square from "./components/square.jsx";
+import Square from './components/square.jsx';
 
 export default function App() {
-    return <>
-        <Square/>
-    </>
+  return <><Square /><Square /><Square /><Square /><Square /><Square /><Square /><Square /><Square /></>;
 }
