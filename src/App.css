@@ -71,6 +71,11 @@ body {
     width: 34px;
 }
 
+.board-row {
+    display: flex;
+    flex-direction: row;
+}
+
 .board-row:after {
     clear: both;
     content: '';
